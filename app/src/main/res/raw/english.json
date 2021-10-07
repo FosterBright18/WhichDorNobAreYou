@@ -1,8 +1,5 @@
 [
   {
-    "directions" : "Answer the following questions with true or false, depending on weather you agree with them or don't."
-  },
-  {
     "question": "I am a social person",
     "answer" : true
   },

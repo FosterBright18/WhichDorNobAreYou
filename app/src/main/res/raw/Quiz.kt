@@ -1,4 +1,0 @@
-package raw
-
-class Quiz {
-}

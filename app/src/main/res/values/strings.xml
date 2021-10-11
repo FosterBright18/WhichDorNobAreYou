@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">WhichDorNobAreYou</string>
+    <string name="main_true">True</string>
+    <string name="main_false">False</string>
+    <string name="main_score">Score</string>
+    <string name="correct_response">Correct!</string>
+    <string name="incorrect_response">Wrong!</string>
 </resources>

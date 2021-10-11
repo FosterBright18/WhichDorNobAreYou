@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WhichDorNobAreYou</string>
+    <string name="main_true">Cierto</string>
+    <string name="main_false">Falso</string>
+    <string name="main_score">Puntos</string>
+    <string name="correct_response">¡Correcto!</string>
+    <string name="incorrect_response">¡Incorrecto!</string>
+</resources>

@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var question : TextView
     lateinit var feedBack : TextView
     lateinit var quiz : Quiz
-    var score = 0
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -52,9 +52,6 @@ class MainActivity : AppCompatActivity() {
         // main activity is incharge of ui and passing information to and from the quiz class
 
 
-        trueButton.text = "True"
-        falseButton.text = "False"
-
 
         question.text = "${quiz.qCurrent().question}"
 
@@ -77,6 +74,8 @@ class MainActivity : AppCompatActivity() {
         } else{
             Toast.makeText(MainActivity@ this, "${quiz.updateScore(bool)}", Toast.LENGTH_SHORT)
             question.text = "You answered true on ${quiz.score} questions,\n this means you are a ${quiz.finalScore(quiz.score)}"
+            trueButton.isEnabled = false
+            falseButton.isEnabled = false
         }
     }
 

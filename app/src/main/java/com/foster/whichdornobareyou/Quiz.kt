@@ -13,22 +13,24 @@ class Quiz(var quest : List<Question>) {
         return quest.get(qNum)
     }
 
-    public fun updateScore(answerSelected : Boolean): String{
+    public fun updateScore(answerSelected : Boolean): Boolean{
         if(answerSelected == quest.get(qNum).answer){
-            return ":)"
             score++
+            return true
+
         } else{
-            return ":("
+            return false
         }
 
     }
 
     fun finalScore(score : Int) : String {
         return when(score) {
+
             in 0..2 -> "door knob"
             in 3..5 -> "handleset"
             in 6..8 -> "lever"
-            in 9..10 -> "crystal knob"
+            in 9..9999 -> "crystal knob"
 
             else -> "door knob"
         }

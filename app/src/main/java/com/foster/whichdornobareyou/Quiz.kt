@@ -1,6 +1,8 @@
 package com.foster.whichdornobareyou
 
-class Quiz(var quest : List<Question>) {
+import android.content.res.Resources
+
+public class Quiz(var quest : List<Question>) {
     var qNum = -1
     var score = 0
 
@@ -27,12 +29,12 @@ class Quiz(var quest : List<Question>) {
     fun finalScore(score : Int) : String {
         return when(score) {
 
-            in 0..2 -> "door knob"
-            in 3..5 -> "handleset"
-            in 6..8 -> "lever"
-            in 9..9999 -> "crystal knob"
+            in 0..2 -> "${Resources.getSystem().getString(R.string.doorknob)}"
+            in 3..5 -> "${MyApplication.myResources.getString(R.string.handleset)}"
+            in 6..8 -> "${MyApplication.myResources.getString(R.string.lever)}"
+            in 9..9999 -> "${MyApplication.myResources.getString(R.string.crystalknob)}"
 
-            else -> "door knob"
+            else -> "${MyApplication.myResources.getString(R.string.doorknob)}"
         }
         }
     }

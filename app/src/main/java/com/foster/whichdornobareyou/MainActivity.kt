@@ -1,5 +1,6 @@
 package com.foster.whichdornobareyou
 
+import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -66,6 +67,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+
     private fun qStart(bool: Boolean) {
         if(quiz.qRemaining()) {
             question.text = "${quiz.qCurrent().question}"
@@ -73,7 +75,8 @@ class MainActivity : AppCompatActivity() {
                 .show()
         } else{
             Toast.makeText(MainActivity@ this, "${quiz.updateScore(bool)}", Toast.LENGTH_SHORT)
-            question.text = "You answered true on ${quiz.score} questions,\n this means you are a ${quiz.finalScore(quiz.score)}"
+            question.text = "${resources.getString(R.string.final1)} ${quiz.score} ${resources.getString(R.string.final2)}\n" +
+                    "${resources.getString(R.string.final3)} ${quiz.finalScore(quiz.score)}"
             trueButton.isEnabled = false
             falseButton.isEnabled = false
         }

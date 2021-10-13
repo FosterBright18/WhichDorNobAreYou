@@ -6,4 +6,11 @@
     <string name="main_score">Puntos</string>
     <string name="correct_response">¡Correcto!</string>
     <string name="incorrect_response">¡Incorrecto!</string>
+    <string name="final1">Tu respondiste verdad en</string>
+    <string name="final2">preguntas,</string>
+    <string name="crystalknob">perilla de cristal</string>
+    <string name="doorknob">perilla de la puerta</string>
+    <string name="lever">palanca</string>
+    <string name="handleset">manija</string>
+    <string name="final3">esto significa que eres un</string>
 </resources>

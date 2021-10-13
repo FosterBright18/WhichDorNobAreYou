@@ -5,4 +5,11 @@
     <string name="main_score">Score</string>
     <string name="correct_response">Correct!</string>
     <string name="incorrect_response">Wrong!</string>
+    <string name="final1">You answered true on</string>
+    <string name="final2">questions,</string>
+    <string name="final3">this means you are a</string>
+    <string name="doorknob">door knob</string>
+    <string name="handleset">handleset</string>
+    <string name="crystalknob">crystal knob</string>
+    <string name="lever">lever</string>
 </resources>

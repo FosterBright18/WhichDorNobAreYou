@@ -29,7 +29,7 @@ public class Quiz(var quest : List<Question>) {
     fun finalScore(score : Int) : String {
         return when(score) {
 
-            in 0..2 -> "${Resources.getSystem().getString(R.string.doorknob)}"
+            in 0..2 -> "${MyApplication.myResources.getString(R.string.doorknob)}"
             in 3..5 -> "${MyApplication.myResources.getString(R.string.handleset)}"
             in 6..8 -> "${MyApplication.myResources.getString(R.string.lever)}"
             in 9..9999 -> "${MyApplication.myResources.getString(R.string.crystalknob)}"

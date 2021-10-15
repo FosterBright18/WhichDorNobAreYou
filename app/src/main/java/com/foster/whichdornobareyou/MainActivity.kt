@@ -1,6 +1,7 @@
 package com.foster.whichdornobareyou
 
 import android.annotation.SuppressLint
+import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -55,6 +56,10 @@ class MainActivity : AppCompatActivity() {
 
 
         question.text = "${quiz.qCurrent().question}"
+
+
+        trueButton.setBackgroundColor((resources.getColor(R.color.buttoncolor)))
+        falseButton.setBackgroundColor((resources.getColor(R.color.buttoncolor)))
 
     }
 

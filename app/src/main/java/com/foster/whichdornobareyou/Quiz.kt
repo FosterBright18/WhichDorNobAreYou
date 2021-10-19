@@ -2,7 +2,7 @@ package com.foster.whichdornobareyou
 
 import android.content.res.Resources
 
-public class Quiz(var quest : List<Question>) {
+public class Quiz(var quest: List<Question>) {
     var qNum = -1
     var score = 0
 
@@ -15,19 +15,19 @@ public class Quiz(var quest : List<Question>) {
         return quest.get(qNum)
     }
 
-    public fun updateScore(answerSelected : Boolean): Boolean{
-        if(answerSelected == quest.get(qNum).answer){
+    public fun updateScore(answerSelected: Boolean): Boolean {
+        if (answerSelected == quest.get(qNum).answer) {
             score++
             return true
 
-        } else{
+        } else {
             return false
         }
 
     }
 
-    fun finalScore(score : Int) : String {
-        return when(score) {
+    fun finalScore(score: Int): String {
+        return when (score) {
 
             in 0..2 -> "${MyApplication.myResources.getString(R.string.doorknob)}"
             in 3..5 -> "${MyApplication.myResources.getString(R.string.handleset)}"
@@ -36,5 +36,5 @@ public class Quiz(var quest : List<Question>) {
 
             else -> "${MyApplication.myResources.getString(R.string.doorknob)}"
         }
-        }
     }
+}

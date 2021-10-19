@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
         wireWidgets()
         setListeners()
 
-        // reading the kson from the raw folder
+        // reading the json from the raw folder
 
         // step 1: open the raw resource as an InputStream
         val inputStream = resources.openRawResource(R.raw.english)
@@ -58,8 +58,8 @@ class MainActivity : AppCompatActivity() {
         question.text = "${quiz.qCurrent().question}"
 
 
-        trueButton.setBackgroundColor((resources.getColor(R.color.buttoncolor)))
-        falseButton.setBackgroundColor((resources.getColor(R.color.buttoncolor)))
+        //trueButton.setBackgroundColor((resources.getColor(R.color.buttoncolor)))
+        //falseButton.setBackgroundColor((resources.getColor(R.color.buttoncolor)))
 
     }
 

@@ -1,0 +1,42 @@
+[
+  {
+    "question": "Soy una persona social",
+    "answer" : true
+  },
+  {
+    "question" : "soy listo",
+    "answer" : true
+  },
+  {
+    "question" : "yo como saludable",
+    "answer" : true
+  },
+  {
+    "question" : "Hago ejercicio más de 4 horas a la semana",
+    "answer" : true
+  },
+  {
+    "question" : "Yo no procrastino",
+    "answer" : true
+  },
+  {
+    "question" : "Me empujo",
+    "answer" : true
+  },
+  {
+    "question" : "Yo supero",
+    "answer" : true
+  },
+  {
+    "question" : "Estoy confiado",
+    "answer" : true
+  },
+  {
+    "question" : "Soy desinteresado",
+    "answer" : true
+  },
+  {
+    "question" : "Yo estoy feliz",
+    "answer" : true
+  }
+]

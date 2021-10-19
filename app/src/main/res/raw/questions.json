@@ -1,0 +1,42 @@
+[
+  {
+    "question": "I am a social person",
+    "answer" : true
+  },
+  {
+    "question" : "I am smart",
+    "answer" : true
+  },
+  {
+    "question" : "I eat healthy",
+    "answer" : true
+  },
+  {
+    "question" : "I exercise more than four hours a week",
+    "answer" : true
+  },
+  {
+    "question" : "I don't procrastinate",
+    "answer" : true
+  },
+  {
+    "question" : "I push myself to do better",
+    "answer" : true
+  },
+  {
+    "question" : "I overachieve",
+    "answer" : true
+  },
+  {
+    "question" : "I am confident",
+    "answer" : true
+  },
+  {
+    "question" : "I am selfless",
+    "answer" : true
+  },
+  {
+    "question" : "I am happy",
+    "answer" : true
+  }
+]
